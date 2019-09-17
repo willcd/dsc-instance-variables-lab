@@ -39,7 +39,7 @@ passenger = None # assign the passenger instance
 # give the passenger instance object a 'rating' of 4.9
 ```
 
-Your next challenge is to build a function to find a driver with a given name. The function should take two inputs: drivers and search_name. Drivers will be a list of driver objects (instances of the class you defnined above) and search_name will be a string for the driver name you wish to search from. The function should then return the first driver object from drivers whose name is an exact match to the search name. If there is no driver that matches the name searched for, then the function should return `None` and print a string stating "Sorry we couldn't find a driver with the name, ____! :\(" For example, if there were no results for the search name "Jack" your function should return None and print:
+Your next challenge is to build a function to find a driver with a given name. The function should take two inputs: drivers and search_name. Drivers will be a list of driver objects (instances of the class you defined above) and search_name will be a string for the driver name you wish to search from. The function should then return the first driver object from drivers whose name is an exact match to the search name. If there is no driver that matches the name searched for, then the function should return `None` and print a string stating "Sorry we couldn't find a driver with the name, ____! :\(" For example, if there were no results for the search name "Jack" your function should return None and print:
 
 ```python
 "Sorry we couldn't find a driver with the name, Jack! :("
@@ -106,7 +106,7 @@ output
     Sorry we couldn't find a driver with the name, allison! :(
 
 
-If you've correctly coded the find driver by name function, then the first two calls should have returned Driver objects, while the third should have printed the appology statement and returned `None`. (You can further inspect the final output to verify this using the type() method which should reveal that the output is indeed a `Nonetype`; a plain call to output as written above return nonething.
+If you've correctly coded the find driver by name function, then the first two calls should have returned Driver objects, while the third should have printed the apology statement and returned `None`. (You can further inspect the final output to verify this using the type() method which should reveal that the output is indeed a `Nonetype`; a plain call to output as written above returns nothing.
 
 
 While perhaps moderately useful, the function as written is rather brittle. Misspelling a driver's name will lead to no results. As such, write a more general method called `name_starts_with()` that will return a list of instance objects that start with a given substring. For example, you could pass the function a substring 'a' to return all drivers whose name begins with a.
@@ -160,7 +160,7 @@ best_driver = None # instantiate a NewDriver instance object
 # add the passengers attribute and assign it to the list_of_passengers
 ```
 
-Alright, great! Now you have some attributes on the driver that you can work with. Create an instance method in the Driver class called `passenger_names` which returns a list of all the passengers' names/
+Alright, great! Now you have some attributes on the driver that you can work with. Create an instance method in the NewDriver class called `passenger_names` which returns a list of all the passengers' names/
 Your output should look like `['alex', 'michelle', 'jake', 'ashleigh']`.
 
 
