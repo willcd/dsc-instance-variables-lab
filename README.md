@@ -8,8 +8,8 @@ In this lab, you'll practice using instance variables, which you use to store in
 
 You will be able to:
 
-* Define instance variables
-* Describe how instance variables give objects attributes and properties
+* Define and call an instance method
+* Define and access instance attributes
 
 ## Instructions
 
