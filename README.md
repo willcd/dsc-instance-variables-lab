@@ -25,7 +25,7 @@ Below, define classes for both the `Driver` and `Passenger` classes -- for now j
 ```python
 # __SOLUTION__ 
 # Driver class
-class Driver(object):
+class Driver:
     pass
 ```
 
@@ -39,7 +39,7 @@ class Driver(object):
 ```python
 # __SOLUTION__ 
 # Passenger class
-class Passenger(object):
+class Passenger:
     pass
 ```
 
@@ -185,7 +185,7 @@ output_1
 
 
 
-    <__main__.Driver at 0x10a033208>
+    <__main__.Driver at 0x10c1f70f0>
 
 
 
@@ -207,7 +207,7 @@ output_2
 
 
 
-    <__main__.Driver at 0x10a033198>
+    <__main__.Driver at 0x10c1f7080>
 
 
 
@@ -275,7 +275,7 @@ name_starts_with(list_of_drivers, 'a')
 
 
 
-    [<__main__.Driver at 0x10a0331d0>, <__main__.Driver at 0x10a033240>]
+    [<__main__.Driver at 0x10c1f70b8>, <__main__.Driver at 0x10c1f7128>]
 
 
 
@@ -323,7 +323,7 @@ highest_rated_driver(list_of_drivers)
 
 
 
-    <__main__.Driver at 0x10a033208>
+    <__main__.Driver at 0x10c1f70f0>
 
 
 
